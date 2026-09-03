@@ -1,0 +1,193 @@
+# 求职搜索任务说明（AI 专用版）
+
+目标：为候选人在 EEA 国家搜索近期发布的机械工程岗位，优先筛选“能提供当地工作签证、并有利于未来获得长期居留许可（PR / 长期居留）”且与候选人背景强匹配的机会。重点不是“广泛搜索”，而是“高质量、可投递、可拿 offer、且未来有长期居留路径的岗位”。
+
+候选人信息：
+- CV：CV Ruiyang Zhang EU_3069
+- 目标地区：德国 + 意大利 + 其他 EEA 国家（优先顺序：德国 > 意大利 > 荷兰/比利时 > 法国/奥地利/西班牙 > 波兰/捷克等；优先选择有汽车、机械制造、工业自动化、热管理或设备制造需求的国家）
+- 目标岗位：机械工程师 / 测试验证工程师 / 应用工程师 / 项目工程师 / 现场技术支持 / 质量工程师 / FAE / 技术支持 / 售后工程师
+- 合同偏好：当地合同，支持工签 / 蓝卡 / 工作许可，并具备长期居留路径（长期居留、蓝卡、定居条件）
+- 优先筛选方向：中资背景、母公司为中资的外企、最近被中资收购的外企、华人企业、华人老板/华人 HR 直招、EEA 本地 Tier 1 / Tier 2 / 机械制造企业
+
+核心要求：
+1. 优先搜索最近 30 天发布的岗位；如果岗位对长期居留路径明显有利，可适当放宽到 60 天内，但需标注“长期居留友好度”。
+2. 优先筛选与背景强匹配的岗位：测试验证、项目交付、应用工程、现场技术支持、质量与供应商协调，机械/汽车/热管理/设备制造方向优先。
+3. 允许适度放宽“工作国家”，以满足“提供当地工作签证 + 未来长期居留”的目标。德国和意大利仍然优先，但如果其他 EEA 国家提供真实 local contract + work visa + 长期居留路径，也纳入候选池。
+4. 避开纯仿真/CAE/Simulation 角色；不看纯研发设计岗，除非有强烈的跨职能/项目交付价值且符合候选人背景。
+5. 重点考虑录取成功率与长期落地性：公司背景、语言要求、签证支持、是否能落地长期居留、是否在华人平台发布、是否有中文沟通价值。
+6. 对每个岗位都给出明确评分，按分数排序输出，并单独标注“长期居留路径”。
+
+候选人简历关键点（用于匹配）
+- 机械工程背景，重点在汽车热管理/散热/流体/零部件工程与机电一体化开发
+- Senior Mechanical Engineer，Johnson Electric，负责 Cooling Fan Module (CFM) 产品从概念到 Design Verification (DV)、工业化和 SOP 的端到端交付
+- Simulation Specialist，VHIT Bosch，意大利，参与机械性能/仿真与测试验证工作，具备 CAE/测试结合的工程经验
+- 负责 DFMEA、Change Control、原型制造、试验规划与 issue resolution，支持 OEM 客户量产落地
+- 机械零部件基础：压铸件、塑料件、冲压件、电气接口组件
+- 具备油泵性能测试、AMESim 建模、MATLAB / ABAQUS 基础分析与 HIL 测试系统开发经验
+- 学历：米兰理工大学硕士（航空/机械方向），北京理工大学本科学历（航空/机械方向）
+- 语言：中文母语，英语流利（B2），德语 B2，意大利语 A2
+- 目前在中国，接受赴 EEA 国家工作，优先考虑能够提供当地工作签证和长期居留路径的岗位
+
+岗位优先级
+1. 测试验证工程师 / Validation Engineer / Test Engineer
+2. 应用工程师 / Application Engineer
+3. 项目工程师 / Project Engineer
+4. 现场技术支持 / Field Service Engineer / FAE
+5. 质量工程师 / SQE / Supplier Quality Engineer
+6. 设备/自动化/售后支持相关技术岗
+
+公司优先级
+优先考虑：
+- 中资企业在欧洲的分支/子公司
+- 母公司为中资的外资企业
+- 最近被中资收购的外国公司
+- 华人企业 / 华人老板公司 / 华人 HR 直招
+- 欧洲本地机械制造商、汽车零部件供应商、设备制造商、工业自动化公司
+
+公司次优先：
+- 普通欧洲本地企业，但明确支持签证和 relocation
+- 语言要求中英双语即可，或接受 B2 德语/基础意语
+
+排除项：
+- 纯 CAE / Simulation / CFD / FEA / FEM / AMESim / ABAQUS 研发岗位
+- 明确要求必须有当地永居/当地国籍且拒绝签证担保的岗位
+- 纯纯设计开发岗，且与候选人背景弱匹配
+
+EEA 国家适配策略（按长期居留导向）
+- 优先国家：德国、意大利
+- 二级国家：荷兰、比利时、法国、奥地利、西班牙
+- 三级国家：波兰、捷克、瑞典、丹麦、芬兰等，但需结合语言要求和签证政策综合判断
+- 选岗原则：只要提供当地合同、签证担保、并且可维持长期居留路径（蓝卡、长期居留、定居条件），即使工作国家不在德国/意大利，也属于高价值目标
+- 避免迷恋“高薪但无签证支持”的岗位；优先选择“有长期居留前景”的岗位，而不是只找短期技术岗位
+
+搜索平台清单（必须覆盖）
+1. 主流平台：
+   - LinkedIn
+   - Indeed.de
+   - Indeed.it
+   - StepStone.de
+   - EURES / EU job boards
+   - Xing（德国）
+   - local company career pages
+
+2. 德国华人/中企相关平台：
+   - Work-in-de.de
+   - Dolc.de / 萍聚社区
+   - GCS / 全德华人学者论坛
+   - GCGI / 全德华人汽车工程师协会
+   - 微信公众号 / 华人社区招聘信息
+   - 中企出海招聘渠道
+
+3. 意大利华人/中企相关平台：
+   - Huarenjie.com / 华人街
+   - Huarenwang.com / 意大利华人网
+   - Cineseitalia.com / 奋斗在意大利
+   - COSCC.it / 全意学联 / 留学生求职社区
+   - 小红书定向搜索
+   - 意大利华人微信群 / 华人招聘分类信息
+
+4. 额外优先搜索：
+   - 相关公司官网招聘页
+   - 中国母公司招聘网站 / European subsidiaries job pages
+   - 中资收购或并购后的公司招聘页
+   - 华人老板/招聘主管的直接社交平台招聘贴
+
+搜索关键词（多语言）
+- English：
+  Mechanical Engineer, Test Engineer, Validation Engineer, Application Engineer, Project Engineer, Field Service Engineer, FAE, Quality Engineer, Automotive Engineer, Thermal Management, Manufacturing Engineer, After Sales Engineer, Mechanical Technician, Work Visa, Visa Sponsorship, Relocation
+- German：
+  Testingenieur, Versuchsingenieur, Applikationsingenieur, Projektingenieur, Servicetechniker, FAE, Qualitätsingenieur, Maschinenbau, Automobil, Wärmemanagement, Visum, Arbeitserlaubnis, Relocation
+- Italian：
+  Ingegnere meccanico, Ingegnere di Collaudo, Ingegnere di Applicazione, Ingegnere di Progetto, Assistenza Tecnica, FAE, Qualità, Macchinari, Automotive, Visto, Permesso di Lavoro
+- Chinese：
+  机械工程师, 测试工程师, 验证工程师, 应用工程师, 项目工程师, 售后工程师, 现场技术支持, FAE, 质量工程师, 汽车零部件, 散热, 热管理, 工签, 蓝卡, 中资, 华人企业
+
+搜索策略
+- 搜索时优先使用“中资/华人/签证/项目/测试/应用/现场支持”组合词。
+- 例如：
+  - "Mechanical Engineer" AND ("Test" OR "Validation" OR "Application" OR "Project" OR "Field Service") AND ("Visa Sponsorship" OR "Work Permit" OR "Relocation" OR "Blue Card")
+  - "Automotive" AND ("Test Engineer" OR "Validation Engineer") AND ("Germany" OR "Italy")
+  - "Application Engineer" AND ("Chinese" OR "Mandarin") AND ("Germany" OR "Italy")
+  - "Field Service Engineer" AND ("Automotive" OR "Equipment" OR "Mechanical") AND ("Visa" OR "Relocation")
+  - "机械工程师" AND "测试" AND "德国" / "意大利"
+  - "华人企业" AND "机械工程师" AND "售后" AND "工签" / "Permesso di Lavoro"
+
+筛选与评分规则（100 分制）
+- 35 分：签证/招聘门槛
+  - 明确支持 work visa / work permit / relocation / Blue Card
+  - 华人平台发布岗位，老板通常愿意协助办签证：优先加分
+  - 无签证支持：扣分严重
+- 30 分：岗位匹配度
+  - 测试/验证、应用、项目、现场工程、质量、售后支持：高分
+  - 纯研发、纯仿真、纯 CAE：低分甚至排除
+- 20 分：语言与沟通成本
+  - 中英双语、接受 B2 德语、允许基础意语：高分
+  - 华人平台岗位可适当加分
+- 15 分：公司背景与录取成功率
+  - 中资背景、母公司中资、外企被中资收购、华人企业：高分
+  - 这些类型在招聘中更容易接受跨国背景和签证支持
+
+评分判断：
+- 85–100：优先投递，最强候选
+- 70–84：值得投递，适合跟进
+- 60–69：可考虑，但不是重点
+- 0–59：不推荐
+
+输出要求
+必须按“单个岗位逐条列出”的方式输出，按总分从高到低排序，不要只给汇总表。每个岗位输出一段结构化结果，字段如下：
+
+1. 评分：X/100
+2. 岗位名称：
+3. 公司名称：
+4. 公司背景：
+   - 是否中资母公司 / 外资被中资收购 / 华人企业 / 欧洲本地企业
+   - 是否有中欧/中企出海背景
+5. 岗位位置：
+6. 发布时间：
+7. 工作内容概述：
+8. 语言要求：
+9. 签证/工作许可：
+10. 录取成功率判断：
+11. 匹配度：
+12. 主要优点：
+13. 风险点：
+14. 来源链接：
+15. 是否建议投递：是/否
+
+输出格式示例：
+1. 评分：92/100
+   岗位名称：Application Engineer (Automotive Thermal Management)
+   公司名称：某中资汽车零部件公司欧洲分公司
+   公司背景：中资背景，欧洲分公司，华人团队/中企出海，支持签证和 relocation
+   岗位位置：德国斯图加特
+   发布时间：2026-08-20
+   工作内容概述：负责汽车热管理系统应用工程，客户支持，测试验证，跨部门协调，售后问题处理
+   语言要求：英语 + 中文优先，德语可选
+   签证/工作许可：支持工签/工作许可，提供 relocation support
+   录取成功率判断：高，适合候选人背景
+   匹配度：强匹配，岗位方向与候选人项目经验重合度高
+   主要优点：签证友好、岗位类型符合、华人企业沟通成本低
+   风险点：需要部分现场支持，可能需要一定出差
+   来源链接：LinkedIn / 公司官网
+   是否建议投递：是
+
+执行规则
+1. 不得编造岗位，不得编造公司，不得编造链接。
+2. 必须优先展示最新岗位。近期 30 天内岗位优先。
+3. 必须优先展示高录取率岗位，而不是仅仅最“看起来像技术岗”的岗位。
+4. 必须剔除纯 CAE/Simulation 相关岗位。
+5. 只输出真实存在的岗位，并说明搜索来源。
+6. 若某个岗位看起来强匹配但缺少签证信息，则直接标记“风险高”，不盲目抬高评分。
+7. 如果岗位来自华人平台、小红书、微信群、中文招聘网络，可作为“高录取率”加分项。
+8. 任务最终输出要以“岗位列表 + 排序”形式出现，不要只有定性建议。
+
+最后输出时请遵循以下顺序：
+- 第一部分：按总分排序的岗位列表
+- 第二部分：Top 3 高录取率推荐岗位
+- 第三部分：建议继续搜索的平台和公司类型
+- 第四部分：下一步行动建议
+
+注意：
+- 这是一个针对 AI 的搜索任务文档，不是普通求职文案。
+- 需要让 AI 明确知道：要搜索最近发布岗位、去仿真、优先高录取率、优先中资/华人背景、按匹配度和签证支持打分、最后直接给出排序后的岗位列表。
+
